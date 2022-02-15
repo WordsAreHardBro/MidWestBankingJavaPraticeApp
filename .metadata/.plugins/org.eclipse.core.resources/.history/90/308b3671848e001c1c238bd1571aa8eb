@@ -1,0 +1,23 @@
+package Main;
+
+public class accountInformation {
+
+	public static int balance;
+	public static int previousTransaction;
+	public static String customerName;
+	public static String customerId;
+	
+	public static void deposit(int amount) {
+		if(amount != 0) {
+			balance = balance + amount;
+			previousTransaction = amount;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+}
