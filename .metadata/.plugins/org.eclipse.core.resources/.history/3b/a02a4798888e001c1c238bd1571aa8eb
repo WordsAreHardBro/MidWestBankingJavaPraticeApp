@@ -50,7 +50,7 @@ public class accountInformation {
 		System.out.println("B. Deposit");
 		System.out.println("C. Withdraw");
 		System.out.println("D. Previous Transaction");
-		System.out.println("E. Exit");
+		System.out.println("e. Exit");
 		
 		do
 		{
@@ -88,10 +88,9 @@ public class accountInformation {
 				System.out.println("--------------");
 				break;
 			default:
-				
 				System.out.println("Not a option please make try again");
 				break;
-			}
+			
 		}while(option !='E');
 		
 		System.out.println("Thank you please come again");

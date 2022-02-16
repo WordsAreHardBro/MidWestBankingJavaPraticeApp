@@ -92,7 +92,7 @@ public class accountInformation {
 				System.out.println("Not a option please make try again");
 				break;
 			}
-		}while(option !='E');
+		}while(option =='E');
 		
 		System.out.println("Thank you please come again");
 			

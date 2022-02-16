@@ -50,7 +50,7 @@ public class accountInformation {
 		System.out.println("B. Deposit");
 		System.out.println("C. Withdraw");
 		System.out.println("D. Previous Transaction");
-		System.out.println("E. Exit");
+		System.out.println("e. Exit");
 		
 		do
 		{
@@ -58,7 +58,7 @@ public class accountInformation {
 			System.out.println("What would you like to do: ");
 			System.out.println("======================");
 			option = scanner.next().charAt(0);
-
+			System.out.println("\n");
 			
 			switch(option)
 			{
@@ -66,7 +66,7 @@ public class accountInformation {
 				System.out.println("-----------");
 				System.out.println("Your Balance is: " + balance);
 				System.out.println("-----------");
-
+				System.out.println("\n");
 				break;
 			case 'B':
 				System.out.println("------------");
@@ -74,6 +74,7 @@ public class accountInformation {
 				System.out.println("-------------");
 				int amount = scanner.nextInt();
 				deposit(amount);
+				System.out.println("\n");
 				break;	
 			case 'C':
 				System.out.println("-----------");
@@ -81,14 +82,15 @@ public class accountInformation {
 				System.out.println("-----------");
 				int amount1 = scanner.nextInt();
 				withDraw(amount1);
+				System.out.println("\n");
 				break;
 			case 'D':
 				System.out.println("-------------");
 				getPrevoiusTransaction();
 				System.out.println("--------------");
+				System.out.println("\n");
 				break;
 			default:
-				
 				System.out.println("Not a option please make try again");
 				break;
 			}
